@@ -28,22 +28,6 @@ App_Data/
 # User Secrets file
 *.usersecret
 
-# Local settings
-App_Start/IdentityConfig.cs
-App_Start/BundleConfig.cs
-App_Start/RouteConfig.cs
-App_Start/FilterConfig.cs
-App_Start/WebApiConfig.cs
-
-# MVC views
-Views/Web.config
-
-# Web config
-web.config
-
-# Solution file
-*.sln
-
 # Visual Studio Code
 .vscode/
 
