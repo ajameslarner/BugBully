@@ -58,3 +58,8 @@ web.config
 
 # .NET Core Tools
 .dotnet-cli-telemetry.json
+/BugBullyDB/BugBullyDB.dbmdl
+/BugBullyDB/BugBullyDB.jfm
+/.vs/BugBully/FileContentIndex/read.lock
+/.vs/BugBully/FileContentIndex/92a0e9b6-7881-4794-bf65-93a813c2b34a.vsidx
+/.vs/BugBully/config/applicationhost.config

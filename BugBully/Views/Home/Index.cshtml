@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron text-white bg-primary">
+    <h1 class="text-center">BugBully</h1>
+    <p class="lead text-center">An effective tool to track and monitor reported bugs across multiple products.</p>
+</div>
+
+<div class="container my-5">
+    <div class="row">
+        <div class="col-md-6 col-sm-12">
+            <h2>Report a bug</h2>
+            <p>
+                To get started begin by visiting the bugs page to start reporting bugs. You can also head over to the users page to create new users.
+            </p>
+            <p class="btn btn-secondary">@Html.ActionLink("Add Bug", "Create", "Bugs")</p>
+        </div>
+        <div class="col-md-6 col-sm-12">
+            <h2>Register a new user</h2>
+            <p>Head over a register a new user using the user registration page which will allow you to assign bugs to users.</p>
+            <p class="btn btn-secondary">@Html.ActionLink("Add User", "Register", "Users")</p>
+        </div>
+    </div>
+</div>
